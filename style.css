@@ -1,0 +1,28 @@
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* set the height to your desired value */
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  li a:hover {
+    border-bottom: 2px solid #333;
+  }
+
+  
